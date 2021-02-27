@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  
+    
+</head>
+<body>
+    <div class="main-section">
+        <div class='section1'>
+           <div class="menu">
+            <ul>
+                <div>
+                  <i class="bi bi-house-door-fill"></i>
+                    <img class="icon" src="images/icon.png" alt="">
+                    <div id="dot"></div>
+                <li  id="homebtn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                </svg>  Home </li>
+                <li ><i style="font-size: xx-large; padding-right: 20px;">#</i>Explore</li>
+                <li><img src="images/notify.png" alt="">Notifications</li>
+                <li><img src="images/message.svg" alt=""> Messages</li>
+                <li> <img src="images/bookmark.svg" alt=""> Bookmarks</li>
+                <li ><img src="images/profile.png"  alt=""> <i id="profile" class="profhme">Profile</i> </li>
+                <li> <img src="images/more.png" alt=""> More</li>
+               <button type="button" id="tweetbtn" >Tweet</button>
+                </div>
+            </ul>
+            <div id="btmProfile"><h id="username" ></h></div>
+           </div> 
+          
+          </div>
+    <div class='section2'>
+        <b style="padding-left: 20px;">HOME</b>
+        <div id="liner" ></div>
+          <div id="tweet">
+            <span  id="profcontainer"></span><input type="text" id="tweetbar"  placeholder=  "What's Happening? ">
+            <div style="padding-bottom: 0px; padding-left: 10px;" >
+              <button  id="tweetbtn" type="button">Tweet</button></div>
+          </div> 
+          <div>choose photo/video:<input type="file" accept="image/"  id="upload" ></div>
+        <div id="liner"><section id="line"></section></div> 
+
+        <div id='alertBoxs' style="color: green;"><p>Logged in successfully</p></div>
+      
+      <div id="append">
+       
+
+       <img id="myimg" alt="">
+        <div id="myNames" style="font-size: 50px;"></div>  
+        <div id="tweeters"></div>
+        
+        </div>
+            
+      </div>
+
+      <div class="section3" >
+        <div id="search" >
+          <input id="searchbar" type="text" placeholder="Search Twitter"> 
+        </div>
+        
+        <div id="trends">
+          <span style=" font-family:Arial, Helvetica, sans-serif  "> Trends for you</span>
+
+        </div>
+      </div>
+
+      </div> 
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-storage.js"></script>
+<script src="JS/login.js"></script>
+<script src="JS/account.js"></script>
+<script src="JS/script.js"></script>
+<script src="JS/tweet.js"></script>
+<script src="JS/profilePic.js"></script>
+
+
+</body>
+</html>

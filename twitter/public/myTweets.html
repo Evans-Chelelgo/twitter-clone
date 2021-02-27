@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-analytics.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-storage.js"></script>
+</head>
+<body>
+    <div class="main-section">
+        <div class='section1'>
+           <div class="menu">
+            <ul>
+                <div>
+                    <img class="icon" src="images/icon.png" alt="">
+                    <div id="dot"></div>
+                <li id="homebtn"  ><img id="homeimg" src="images/home.svg" alt=""> Home </li>
+                <li ><i style="font-size: xx-large; padding-right: 20px;">#</i>Explore</li>
+                <li><img src="images/notify.png" alt="">Notifications</li>
+                <li><img src="images/message.svg" alt=""> Messages</li>
+                <li> <img src="images/bookmark.svg" alt=""> Bookmarks</li>
+                <li id="profile" class="laprofile"><img src="images/profile.png" alt=""> Profile</li>
+                <li> <img src="images/more.png" alt=""> More</li>
+               <button type="button" id="tweetbtn" >Tweet</button>
+                </div>
+            </ul>
+            <div id="btmProfile"><h id="username" ></h></div>
+           </div> 
+          
+          </div>
+    <div class='section2'>
+        <div id="profileTop" >
+            <div id="profileArea" ></div>
+            Set Profile Picture<input id="uploadProf" type="file">
+            <button type="button" id='setProfpic'>Upload</button>
+        </div>
+            
+          <div id="myTweets" ></div>
+           
+        
+        
+      </div>
+
+      <div class="section3" >
+        <div id="search" >
+          <input id="searchbar" type="text" placeholder="Search Twitter"> 
+        </div>
+        
+        <div id="trends">
+          <span> Trends for you</span>
+
+        </div>
+      </div> 
+</body>
+
+
+
+<script src="JS/account.js"></script>
+<script src="JS/script.js"></script>
+<script src="JS/profilePic.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-analytics.js"></script>
+   
+</head>
+<body>
+    <div id="signin">
+        <img class="icon" src="images/icon.png" alt="">
+    <form action="" >
+        <b style="padding: 20px; font-size: 30px;">Create your Account</b>
+        <input id="fullname" type="text" placeholder="name">
+        <input id="phone" type="phone" placeholder="phone"> 
+        <input id="Email" type="email" placeholder="email">
+        <input id="passwd" type="password" placeholder="password" autocomplete="on">
+
+        <p id="signupbtn" >Sign Up</p>
+        </form>
+         
+    </div>
+    <div>
+        <form id="login" action="" >
+        
+            <img class="icon" src="images/icon.png" alt="">
+            <b style="padding: 20px;font-size: 40px;">Log in to Twitter</b>
+    
+        <input id="email" type="email" placeholder="Phone, email, or username" >
+        <input id="password" type="password" placeholder="password" autocomplete="on">
+        <button type="button" id="loginbtn">Login</button>
+        <div style="display: flex;color: #1DA1F2;">
+        
+     
+        </form>
+   
+       
+    <p>Forgot password?</p><br>
+    <div  style="color:#1DA1F2 ;"><p id="sig"  >Sign up for Twitter</p>
+   
+    </div>
+    
+    <div id="load"> <img src="images/load.gif" alt=""> </div>
+  
+  <script src="JS/signup.js"></script> 
+<script src="JS/login.js"></script>
+<script src="JS/script.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,395 @@
+body{
+    background-color: white;
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    
+}
+.section1{
+    width: 270px;
+    height: 100%;
+    border-right: 0.5px solid rgb(228, 223, 223);
+    padding: 20px;
+   
+}
+.section2{
+    width: 650px;
+    height: fit-content;
+    border-right: 0.5px solid rgb(228, 223, 223);
+    border-left: 0.5px solid rgb(228, 223, 223);
+    padding-top: 20px;
+    padding-left: 0px;
+
+
+}
+.section3{
+
+height: fit-content;
+border-right: 0px solid rgb(148, 144, 144);
+border-left: 0px solid rgb(148, 144, 144);
+padding: 0px;
+padding-top: 10px;
+font-size: 25px;
+overflow-x: none;
+
+
+}
+#dot{
+
+    height: 8px;
+    width:8px;
+    border: #1DA1F2 solid 1px;
+    background-color: #1DA1F2;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-radius: 3px;
+}
+.profhme{
+    color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding:  0px  0px;
+    display: block;
+    align-content: flex-start;
+    margin: 0;
+    white-space: nowrap;
+    position: fixed;
+    
+   
+}
+
+.menu li{
+    padding: 7px;
+    list-style: none;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+
+}
+.menu li:hover{
+  background-color:#e0e8ee;;
+  color: #1DA1F2;;
+} 
+li img{
+    height: 20px;
+    width: 20px;
+    fill:#1DA1F2; 
+    padding-right:20px ;
+    
+}  
+#searchbar{
+    border: rgb(8, 85, 99) 1px solid;
+    border-radius: 15px;
+    border-right:0px ;
+    border-left: 0px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    width:300px;
+    padding-left: 0px;
+    outline: none;
+    padding: 5px;
+    background-color:#d3dde4;
+    position: fixed;
+}
+#tweet{
+    padding-right:20px;
+    padding-left: 10px;
+    display: flex;   
+}
+#postername{
+    padding-top: 20px;
+}
+#tweetbar{
+    border: rgb(8, 85, 99) 1px solid;
+    font-size: 17px;
+    width: 91%;
+    height: 50px;
+    padding-left: 70px;
+    outline: none;
+    padding: px;
+    border-top: none;
+    border-left:none ;
+    border-right:none;
+    border-bottom: none;
+    border-bottom: 0%;
+    overflow: none;
+}
+
+    #tweet button{
+        width: 75px;
+        background-color: #7dc1eb;
+        font-size: 2x;
+        color: white;
+        float: right;
+        text-align: center;
+        padding: 0px;
+        height: 35px;
+        border-collapse: collapse;
+        outline: none; 
+        border: none;
+        margin-top: 50px;  
+}
+#tweetbtn{
+  
+    font-size: 20px;
+    width: 220px;
+    background-color: #1DA1F2;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+
+.icon{
+    height: 30px;
+    padding-left: 15px;
+
+}
+#trends{
+
+height:fit-content;
+width: 300px;
+border: solid 1px rgb(146, 144, 144);
+text-align: center;
+border-radius: 15px;
+font-size: 20px;
+padding: 20px;
+background-color: rgb(221, 221, 221);
+margin-left:25px ;
+position: fixed;
+padding-top: 20px;
+
+}
+#search{
+
+padding-bottom: 20px;
+padding-left: 40px;
+margin-bottom: 20px;
+}
+
+ #profile{
+    cursor: pointer;
+    color: #1DA1F2;
+
+}
+#homebtn svg{
+    fill: #1DA1F2;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 20px;
+    
+}
+#signin form{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+
+}
+form input{
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom:20px ;
+    border-color:  #1DA1F2;
+    outline: none;
+    border: 1px solid #1DA1F2;
+    
+
+}
+form img{
+    height: 40px;
+    width: 100px;
+    fill: red;
+}
+#loginbtn{
+
+    color: white;
+    background-color:#87c2e7;height: 50px;
+    border-radius: 15px;
+    border:none;
+
+}
+#signupbtn{
+
+    color: white;
+    background-color:#87c2e7;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+/*     
+}
+#input[type=text]:focus{
+
+    font-size: 5px;
+    color: darkgreen; */
+}
+#signin{
+    display:none;    
+    height: 90%;
+    bottom: 0;
+    width:600px ;
+    top: 30px;
+    right: 300px;
+    left: 300px;
+    z-index: 2;
+    background-color:hsla(0, 0%, 100%, 0.979);
+    position: fixed; 
+    border-radius: 30px;
+}
+#username{
+
+    padding-top: 180px;
+    padding-left: 50px;
+
+}
+#tweeters div{
+    list-style: none;
+     padding: 50px;
+    cursor: pointer;
+
+}
+#tweeters :hover{
+
+background-color:rgb(248, 248, 248);
+cursor: pointer;
+
+}
+
+#tweeters img {
+
+    height:60px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+ 
+}
+#twee{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+#line{
+    height: 1px;
+    
+    background-color: rgb(216, 216, 216);
+    padding-top:0px;
+    margin-top: px;
+    padding-left: 200px;
+    background-position: center;
+    padding: 5px;
+  
+}
+#liner{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(206, 200, 200);
+    margin-top: 10px;
+
+}
+
+#btmProfile{
+
+
+    height: 30px;
+    padding-top:10px ;
+    margin-top: 100px;
+    border-radius: 15px;
+    width: 200px;
+    padding-right: 50px;
+    text-align: center;
+  
+
+}
+#btmProfile:hover {
+    
+
+    height: 30px;
+    padding-top:10px ;
+    margin-top: 100px;
+    border-radius: 15px;
+    width: 200px;
+    padding-right: 50px; 
+    background-color: #e9fbfb;
+    text-align: center;
+    color: black;
+
+}
+
+/* profilesection2 */
+
+#profileTop{
+
+background-color: gray;
+height: 50px;
+width: 100%;
+padding-top: 200px;
+}
+
+#profileArea{
+
+    height: 150px;
+    width: 150px;
+   
+    bottom: px;
+    border-radius: 50%;
+    
+    border:blue solid 1px;
+}
+#profImage{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#load{
+    padding-right: 500px;
+    display: none;
+    padding-top: 150px;
+}
+#alertBoxs{
+    height: 50px;
+    width: 100px;
+    background-color:rgb(220, 220, 233);
+    top: 200px;
+    bottom: 0;
+    left: 500px;
+    right: 0;
+    border-right:500px ;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+}
+#react p{
+
+    color:blue;
+    font-family: sans-serif;
+    padding-left: 50px;
+    
+}
+#profilo{
+
+    height: 5px;
+}
+ 
+
